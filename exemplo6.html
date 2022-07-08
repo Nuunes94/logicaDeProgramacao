@@ -1,0 +1,25 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra (frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var primeiraGeracao = 1500;
+    var ultimaGeracao = 2016;
+    var media = 28;
+    var totalGeracoes = Math.round((ultimaGeracao - primeiraGeracao)/media);
+
+    
+
+    mostra("O total de gerações é " + totalGeracoes);
+
+   
+
+</script>
